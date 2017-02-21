@@ -4,12 +4,4 @@ This is a [demo project](https://github.com/mmetting/RHMAP-RSS-Reader-Demo) util
 
 ![alt text](./pictures/overview.png "Overview")
 
-## Agile Development & DevOps
-
-1. Create new project
-2. Mock data from server side
-3. Iteratively prototype and implement client (Ionic – Cordova app)
-4. Import / Onboard existing app (native iOS – Swift app)
-5. Create a connector to backend system
-6. Transform data from backend system, make this a reusable service
-7. Replace mock data with backend data
+![alt text](./pictures/project.png "Project")
