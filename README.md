@@ -120,3 +120,7 @@ apps designed with Angular Material Design. The app is responsive to fit differe
 It consists of modules that can be added or removed from the basic view. The modules include: a toolbar with a
 logo that can be replaced, a left sidenav, an analytics panel with a piechart. A choice between a card layout
 or a list for the main application screen.
+
+![alt text](./pictures/rhmap-am-boilerplate-iphone6s.png "iPhone6s")
+
+![alt text](./pictures/rhmap-am-boilerplate-ipad.png "iPad")
