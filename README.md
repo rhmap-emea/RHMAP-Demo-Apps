@@ -7,7 +7,7 @@ This is a [demo project](https://github.com/mmetting/RHMAP-RSS-Reader-Demo) util
 ![alt text](./pictures/project.png "Project")
 
 ## RHMAP-Forms-Submission-Viewer-Demo
-This is a [demo project](https://github.com/torbjorndahlen/formsdemo) that uses the '$fh.forms' API to retrieve content submitted through an RHMAP Forms App. It consists of a web app that displays a list of submissions, using '$fh.forms.getSubmissions' from the Cloud App. When selecting a submission the '$fh.forms.getSubmission' is used to retrieve submitted content. The content is examined for the presence of a photo, in which case the '$fh.forms.getSubmissionFile' function is used with the groupId of the photo.
+This is a [demo project](https://github.com/torbjorndahlen/formsdemo) that uses the `$fh.forms` API to retrieve content submitted through an RHMAP Forms App. It consists of a web app that displays a list of submissions, using `$fh.forms.getSubmissions` from the Cloud App. When selecting a submission the `$fh.forms.getSubmission` is used to retrieve submitted content. The content is examined for the presence of a photo, in which case the `$fh.forms.getSubmissionFile` function is used with the groupId of the photo.
 
 ## RHMAP-Chat-Demo
 This is a [demo project](https://github.com/torbjorndahlen/kollegornaserver) that uses the $fh.sync API to create a simple chat application.
@@ -18,7 +18,7 @@ with the [fh-connector-bpm](https://github.com/sebastianfaulhaber/fh-connector-b
 Using the '$fh.sync.globalInterceptRequest' function a 'globalRequestInterceptor' that calls the connector on each sync and then stores the result in a MongoDB Collection allows the client app to retrieve the lastest BPM process and task updates.
 The following code example shows the 'globalRequestInterceptor':
 
-'''
+```
 var $fh = require('fh-mbaas-api');
 
 var globalRequestInterceptor = function(dataset_id, params, cb) {
@@ -65,7 +65,7 @@ var globalRequestInterceptor = function(dataset_id, params, cb) {
 }
 
 $fh.sync.globalInterceptRequest(globalRequestInterceptor);
-'''
+```
 
 Note that all updates must be made to the same document.
 With this, the client app can use the document name as dataset Id and subscribe to updates in BPM.
