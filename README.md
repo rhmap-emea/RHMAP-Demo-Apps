@@ -124,3 +124,5 @@ or a list for the main application screen.
 ![alt text](./pictures/rhmap-am-boilerplate-iphone6s.png "iPhone6s")
 
 ![alt text](./pictures/rhmap-am-boilerplate-ipad.png "iPad")
+
+![alt text](./pictures/rhmap-am-boilerplate-fullscreen.png "Browser")
