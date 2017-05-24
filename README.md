@@ -5,3 +5,6 @@ This is a [demo project](https://github.com/mmetting/RHMAP-RSS-Reader-Demo) util
 ![alt text](./pictures/overview.png "Overview")
 
 ![alt text](./pictures/project.png "Project")
+
+## RHMAP-Forms-Submission-Viewer-Demo
+This is a [demo project] (https://github.com/torbjorndahlen/formsdemo) that uses the $fh.forms API to retrieve content submitted through an RHMAP Forms App. It consists of a web app that displays a list of submissions, using $fh.forms.getSubmissions from the Cloud App. When selecting a submission the $fh.forms.getSubmission is used to retrieve submitted content. The content is examined for the presence of a photo, in which case the $fh.forms.getSubmissionFile function is used with the groupId of the photo. 
