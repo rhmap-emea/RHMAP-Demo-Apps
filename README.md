@@ -113,3 +113,10 @@ $fh.sync.notify(function(notification) {
 ```
 By using $scope.$apply the mobile app's UI can be updated asynchronously every time there is a change in BPM's processes or tasks.
 This is a simple way of building a process driven, asynchronous mobile app that can be used to push tasks to for example field personnel, call center staff etc.
+
+## RHMAP-Angular-Material-Boilerplate
+This is a [demo project](https://github.com/torbjorndahlen/md-boilerplate) that provides a boilerplate for mobile
+apps designed with Angular Material Design. The app is responsive to fit different screen sizes.
+It consists of modules that can be added or removed from the basic view. The modules include: a toolbar with a
+logo that can be replaced, a left sidenav, an analytics panel with a piechart. A choice between a card layout
+or a list for the main application screen.
