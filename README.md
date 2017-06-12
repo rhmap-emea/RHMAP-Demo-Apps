@@ -12,10 +12,6 @@ This is a [demo project](https://github.com/torbjorndahlen/formsdemo) that uses 
 ## RHMAP-Chat-Demo
 This is a [demo project](https://github.com/torbjorndahlen/kollegornaserver) that uses the $fh.sync API to create a simple chat application.
 
-## RHMAP-BPM-Integration Using Sync
-This is a [blog post](http://www.opensourcerers.org/red-hat-map-jboss-bpm-suite-integration-using-sync-framework/) that discuss how to make a mobile app getting regular updates on changes made in tasks and processes in Red Hat JBoss BPM, and how the `$fh.sync` framework can be used together with the [fh-connector-bpm](https://github.com/sebastianfaulhaber/fh-connector-bpm).
-This is a simple way of building a process driven, asynchronous mobile app that can be used to push tasks to for example field personnel, call center staff etc.
-
 ## RHMAP-Angular-Material-Boilerplate
 This is a [demo project](https://github.com/torbjorndahlen/md-boilerplate) that provides a boilerplate for mobile apps designed with Angular Material Design. The app is responsive to fit different screen sizes.
 It consists of modules that can be added or removed from the basic view. The modules include: a toolbar with a logo that can be replaced, a left sidenav, an analytics panel with a piechart. A choice between a card layout, forms or a list for the main application screen. In addition, the boilerplate also contain AngularJS moduls that can be used to easily plug in RHMAP frameworks such as `$fh.sync`and `$fh.push`into a cordova mobile app.
