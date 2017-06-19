@@ -10,11 +10,35 @@ This is a [demo project](https://github.com/mmetting/RHMAP-RSS-Reader-Demo) util
 This is a [demo project](https://github.com/torbjorndahlen/formsdemo) that uses the `$fh.forms` API to retrieve content submitted through an RHMAP Forms App. It consists of a web app that displays a list of submissions, using `$fh.forms.getSubmissions` from the Cloud App. When selecting a submission the `$fh.forms.getSubmission` is used to retrieve submitted content. The content is examined for the presence of a photo, in which case the `$fh.forms.getSubmissionFile` function is used with the groupId of the photo.
 
 ## RHMAP-Chat-Demo
-This is a [demo project](https://github.com/torbjorndahlen/kollegornaserver) that uses the $fh.sync API to create a simple chat application.
+This is a [demo project](https://github.com/torbjorndahlen/kollegornaserver) that uses the `$fh.sync` API to create a simple chat application.
 
 ## RHMAP-Angular-Material-Boilerplate
 This is a [demo project](https://github.com/torbjorndahlen/md-boilerplate) that provides a boilerplate for mobile apps designed with Angular Material Design. The app is responsive to fit different screen sizes.
 It consists of modules that can be added or removed from the basic view. The modules include: a toolbar with a logo that can be replaced, a left sidenav, an analytics panel with a piechart. A choice between a card layout, forms or a list for the main application screen. In addition, the boilerplate also contain AngularJS moduls that can be used to easily plug in RHMAP frameworks such as `$fh.sync`and `$fh.push`into a cordova mobile app.
 
 ## RHMAP-IoT-Event-Demo
-This is a [demo cordova project](https://github.com/torbjorndahlen/IoTEvent-Demo-App-Client) and [demo project](https://github.com/torbjorndahlen/IoTEvent-Demo-App) that receives Push Notifications using the `$fh-push`API when an event has been generated from an IoT device.
+This is a [demo cordova project](https://github.com/torbjorndahlen/IoTEvent-Demo-App-Client) and [demo project](https://github.com/torbjorndahlen/IoTEvent-Demo-App) that receives Push Notifications using the `$fh-push` API when an event has been generated from an IoT device.
+
+## Example Event App including an interactive Quiz on RHMAP
+This is a demo project that could be a starting point for a more ambitious App for events.
+
+Features include:
+
+* Authentication
+* Display of Event Agenda
+* And an interactive Quiz based on socket.io
+
+It's made of:
+
+* 1 x Hybrid client App (Ionic 2) [code](https://github.com/cvicens/Redhatters-Client-App)
+* 1 x Responsive DashBoard to show Quiz results live/historic [code](https://github.com/cvicens/Redhatters-Dashboard-App)
+* 1 x Cloud App (featuring socket.io set up for the interactiveQuiz) [code](https://github.com/cvicens/Redhatters-Cloud-App)
+* 1 x Authentication MBaaS Service [code](https://github.com/cvicens/Redhatters-Auth)
+
+**Project pictures**
+![Event App Project](./pictures/redhatters-project.png "Project")
+
+![Event App Demo](./pictures/redhatters-quiz-demo_v1.0.gif "Client App Demo")
+
+![Event App Dashboard](./pictures/redhatters-dashboard-v1.0.gif "Dashboard")
+
