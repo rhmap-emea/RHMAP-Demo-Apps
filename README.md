@@ -35,7 +35,9 @@ It's made of:
 * 1 x Cloud App (featuring socket.io set up for the interactiveQuiz) [code](https://github.com/cvicens/Redhatters-Cloud-App)
 * 1 x Authentication MBaaS Service [code](https://github.com/cvicens/Redhatters-Auth)
 
-**Project pictures**
+For an detailed explanation go [here](https://github.com/cvicens/Redhatters-Project)
+
+**Some project pictures**
 ![Event App Project](./pictures/redhatters-project.png "Project")
 
 ![Event App Demo](./pictures/redhatters-quiz-demo_v1.0.gif "Client App Demo")
