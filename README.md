@@ -47,4 +47,4 @@ For an detailed explanation go [here](https://github.com/cvicens/Redhatters-Proj
 
 ## RHMAP-Keycloak Demo
 This is a [demo project](https://github.com/torbjorndahlen/rhmap-keycloak) that
-uses Keycloak for authenticating users accessing a RHMAP application.
+uses RHSSO (Keycloak) for authenticating users accessing a RHMAP application and how to protect a CloudApp with RHSSO.
