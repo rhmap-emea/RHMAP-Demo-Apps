@@ -16,6 +16,9 @@ This is a [demo project](https://github.com/torbjorndahlen/kollegornaserver) tha
 This is a [demo project](https://github.com/torbjorndahlen/md-boilerplate) that provides a boilerplate for mobile apps designed with Angular Material Design. The app is responsive to fit different screen sizes.
 It consists of modules that can be added or removed from the basic view. The modules include: a toolbar with a logo that can be replaced, a left sidenav, an analytics panel with a piechart. A choice between a card layout, forms or a list for the main application screen. In addition, the boilerplate also contain AngularJS moduls that can be used to easily plug in RHMAP frameworks such as `$fh.sync`and `$fh.push`into a cordova mobile app.
 
+![md-boilerplate](./pictures/rhmap-am-boilerplate-iphone6s "iPhone 6")
+
+
 ## RHMAP-IoT-Event-Demo
 This is a [demo cordova project](https://github.com/torbjorndahlen/IoTEvent-Demo-App-Client) and [demo project](https://github.com/torbjorndahlen/IoTEvent-Demo-App) that receives Push Notifications using the `$fh-push` API when an event has been generated from an IoT device.
 
