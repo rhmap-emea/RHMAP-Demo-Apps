@@ -9,9 +9,6 @@ This is a [demo project](https://github.com/mmetting/RHMAP-RSS-Reader-Demo) util
 ## RHMAP-Forms-Submission-Viewer-Demo
 This is a [demo project](https://github.com/torbjorndahlen/formsdemo) that uses the `$fh.forms` API to retrieve content submitted through an RHMAP Forms App. It consists of a web app that displays a list of submissions, using `$fh.forms.getSubmissions` from the Cloud App. When selecting a submission the `$fh.forms.getSubmission` is used to retrieve submitted content. The content is examined for the presence of a photo, in which case the `$fh.forms.getSubmissionFile` function is used with the groupId of the photo.
 
-## RHMAP-Chat-Demo
-This is a [demo project](https://github.com/torbjorndahlen/kollegornaserver) that uses the `$fh.sync` API to create a simple chat application.
-
 ## RHMAP-Angular-Material-Boilerplate
 This is a [demo project](https://github.com/torbjorndahlen/md-boilerplate) that provides a boilerplate for mobile apps designed with Angular Material Design. The app is responsive to fit different screen sizes.
 It consists of modules that can be added or removed from the basic view. The modules include: a toolbar with a logo that can be replaced, a left sidenav, an analytics panel with a piechart. A choice between a card layout, forms or a list for the main application screen. In addition, the boilerplate also contain AngularJS moduls that can be used to easily plug in RHMAP frameworks such as `$fh.sync`and `$fh.push`into a cordova mobile app.
