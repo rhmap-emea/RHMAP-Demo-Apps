@@ -47,6 +47,6 @@ For an detailed explanation go [here](https://github.com/cvicens/Redhatters-Proj
 
 ## RHMAP-Keycloak Demo
 This is a [demo project](https://github.com/torbjorndahlen/rhmap-keycloak) that
-uses RHSSO (Keycloak) for authenticating users accessing a RHMAP application and how to protect a CloudApp with RHSSO. It uses the Keycloak Javascript adapter to connect an AngularJS app to RHSSO for authenticating the end user and obtain Access Tokens in order to access the REST API of a CloudApp. The CloudApp uses the Keycloak Nodejs adapter to validate the Access Token before allowing access to the REST API from the AngularJS app.
+uses RHSSO (Keycloak) for authenticating users accessing a RHMAP application and how to protect a CloudApp with RHSSO. It uses the Keycloak Javascript adapter to connect an AngularJS app to RHSSO for authenticating the end user and obtain Access Tokens in order to access the REST API of a CloudApp. The CloudApp uses the Keycloak Nodejs adapter to validate the Access Token before allowing access to the REST API from the AngularJS app. In order to run the demo on RHMAP, RHSSO must be deployed on a routable server. In this demo I have used AWS EC2 and also deployed HAProxy as a reverse proxy in front of RHSSO.
 
 ![rhmap-keycloak](./pictures/login.png "Login")
